@@ -1,0 +1,19 @@
+.player{
+    position: fixed;
+    bottom: 0px;
+    background-color: #21c7f32e;
+    color: #fff;
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.player .music-name{
+    margin: auto;
+}
+
+@media screen and (min-width: 769px){
+    .player{  
+        width: 80%;
+    }  
+}

@@ -1,0 +1,11 @@
+.sidebar{
+    width: 15%;
+    height: 90%;
+    background-color: #21c7f32e;
+}
+
+@media screen and (min-width:789px){
+    .sidebar{  
+        width: 25%;
+    }  
+}

@@ -1,0 +1,15 @@
+.lyric-area{
+    width: 85%;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.lyric-area p{
+    margin:10%;
+}
+
+@media screen and (min-width:789px){
+    .lyric-area{  
+        width: 75%;
+    }  
+}
