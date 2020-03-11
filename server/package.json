@@ -1,0 +1,18 @@
+{
+  "name": "spotyfi-lyricfy-server",
+  "version": "1.0.0",
+  "description": "The server of spotify-lyricfy Web App",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "spotify",
+    "lyrics"
+  ],
+  "author": "charlesannibal@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
