@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
@@ -14,8 +16,8 @@
 }
 
 .App-header {
-  background: linear-gradient(180deg, #000 32%, #064e22 81%, #006e00 100%);
-  min-height: 100vh;
+  /*background: linear-gradient(180deg, #000 32%, #064e22 81%, #006e00 100%);*/
+  /*min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +37,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    overflow-y:auto;
+    border: 1px solid orange;
 }
